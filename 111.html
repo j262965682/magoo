@@ -1,0 +1,150 @@
+<div id="app">
+    <nav role="navigation" aria-label="main navigation" class="navbar">
+        <div class="container">
+            <div class="navbar-brand"><a href="/" class="navbar-item"><strong>🏠 Home</strong></a> <button data-target="navMenu" class="button navbar-burger"><span></span> <span></span> <span></span></button></div>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start"><a href="/faq" class="navbar-item"><span>FAQ</span></a> <a href="/blog" class="navbar-item"><span>Blog</span></a> <a href="/topics" class="navbar-item">
+    Topics
+</a> <a href="/bookshelves" class="navbar-item">
+    Bookshelves
+</a> <a href="https://paypal.me/tiggreen" target="_blank" class="navbar-item is-warning"><span class="icon"><i class="fa fa-paypal"></i></span> <span><strong>Make a donation</strong></span></a></div>
+                <div class="navbar-end">
+                    <div class="changelog navbar-item is-hidden-touch"><a href="#" class="changloglink" style="color: rgb(8, 172, 148);">What's New</a><span id="HW_badge_cont" class="HW_visible"><span id="HW_badge" data-count-unseen="" class="HW_softHidden"></span></span>
+                    </div>
+                    <div class="navbar-item"><a href="/register" class="button is-primary">SIGN UP</a></div>
+                    <div class="navbar-item"><a href="/login" class="button is-light">LOG IN</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column"></div>
+                <div class="column is-5">
+                    <div class="box">
+                        <div class="notification has-text-centered register-welcome"><strong>Let's get you started!</strong></div>
+                        <form role="form" method="POST" action="https://booknshelf.com/register"><input type="hidden" name="_token" value="5CmNkZk1hq0MYZPtWCKmTOS7xdjtr4XfmDHGOvLJ">
+                            <div class="field"><label class="label">What's your name?</label>
+                                <p class="control"><input type="text" name="name" value="" placeholder="e.g. Jon Snow" class="input "></p>
+                            </div> <label class="label">Choose your username.</label>
+                            <div class="field has-addons">
+                                <p class="control"><a class="button is-static">
+                    booknshelf.com/@
+                  </a></p>
+                                <p class="control"><input type="text" name="username" value="" placeholder="username" class="input "></p>
+                            </div> <label class="label">What's your email address?</label>
+                            <div class="field">
+                                <p class="control has-icons-left"><input type="text" name="email" value="" placeholder="Enter a valid email address" class="input "> <span class="icon is-small is-left"><i class="fa fa-envelope"></i></span></p>
+                            </div>
+                            <div class="field">
+                                <p class="control"><label class="label">Choose a strong password</label> <input type="password" name="password" placeholder="Your Password" class="input "></p>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <p class="control"><button type="submit" name="register" class="button is-primary full-width-button"><strong>Sign up</strong></button></p>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <p class="control has-text-centered">
+                                        Have an account? <a href="/login">Sign in</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div> <span class="or-wrapper"><span class="or-text">or</span></span>
+                    <div class="box">
+                        <div class="field">
+                            <p class="control"><a href="https://booknshelf.com/auth/facebook" class="button fb-button"><span class="icon"><i class="fa fa-facebook"></i></span> <span><strong>Sign up with Facebook</strong></span></a></p>
+                        </div>
+                        <div class="field">
+                            <p class="control"><a href="https://booknshelf.com/auth/twitter" class="button twt-button"><span class="icon"><i class="fa fa-twitter"></i></span> <span><strong>Sign up with Twitter</strong></span></a></p>
+                        </div>
+                        <div class="field">
+                            <p class="control"><a href="https://booknshelf.com/auth/goodreads" class="button goodreads-button"><span class="icon"><i class="icon-light"><span style="font-family: helvetica;">g</span></i></span> <span><strong>Sign up with Goodreads</strong></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p><strong>Booknshelf</strong> by <a href="https://tigran.nyc" target="_blank" style="text-decoration: underline;">Tigran</a></p>
+                <div id="social"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" title="Twitter Follow Button" src="//platform.twitter.com/widgets/follow_button.c4fd2bd4aa9a68a5c8431a3d60ef56ae.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=tiggreen&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1485106087141"
+                        data-screen-name="tiggreen" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 203px; height: 20px;"></iframe> <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fusebooknshelf%2F&amp;width=61&amp;layout=button_count&amp;action=like&amp;size=small&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=1899203000306326"
+                        width="70" height="21" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden;"></iframe> <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" title="Twitter Tweet Button"
+                        src="//platform.twitter.com/widgets/tweet_button.c4fd2bd4aa9a68a5c8431a3d60ef56ae.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https://booknshelf.com&amp;related=tiggreen%3ACreator%20of%20Booknshelf&amp;size=m&amp;text=Keep track of all your books online!&amp;time=1485106087144&amp;type=share&amp;url=https%3A%2F%2Fbooknshelf.com&amp;via=booknshelf"
+                        data-url="https://booknshelf.com" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe></div>
+                <p>Consider a small donation to help me to keep the site running!</p> <a href="https://paypal.me/tiggreen" target="_blank" type="button" class="button is-dark"><span class="icon"><i class="fa fa-paypal"></i></span> <span>MAKE A DONATION!</span></a>
+                <p></p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="columns">
+    <div class="column is-half">1</div>
+    <div class="column ">
+        <div class="field">
+            <label class="label" has-text-left>Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                <span class="icon is-small is-left">
+        <i class="fas fa-user"></i>
+      </span>
+                <span class="icon is-small is-right">
+        <i class="fas fa-check"></i>
+      </span>
+            </div>
+            <p class="help is-success">This username is available</p>
+        </div>
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                <span class="icon is-small is-left">
+        <i class="fas fa-envelope"></i>
+      </span>
+                <span class="icon is-small is-right">
+        <i class="fas fa-exclamation-triangle"></i>
+      </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+        </div>
+
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link ">Submit</button>
+            </div>
+            <div class="control">
+                <button class="button is-link is-light is-pulled-right">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
